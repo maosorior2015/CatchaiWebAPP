@@ -4,7 +4,7 @@ module.exports = function(grunt){
 		pkg:grunt.file.readJSON('package.json'),
 
 		watch:{
-			files:['./app/*','./app/*/*.*'],
+			files:['./app/','./app/*.*'],
   		},
   		
   		express: {
@@ -12,7 +12,7 @@ module.exports = function(grunt){
   				options:{
 					port:4000,
 					hostname:'0.0.0.0',
-  					bases:['./','./app','./app/**/*.*'],
+  					bases:['./','./app/','./app/**/*.*'],
 				    livereload: true
   				}
 			}

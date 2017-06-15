@@ -1,6 +1,4 @@
-<div id="wrapper" ng-controller='MenuController' ng-init='init()'>
-	Soy el menú
-	<a href="/uno">Uno</a>
-	<a href="/dos">Dos</a>
-	<a href="/tres">Tercera pero no encontrada xD</a>
+<div id="wrapper" ng-controller='MenuController' ng-init='init()' ng-show="(model.logueado)">
+	<a href="#/eventos">Mis Eventos</a>
+	<a href="#/eventoAgregar">Agregar Evento</a>
 </div>
