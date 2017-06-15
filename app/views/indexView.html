@@ -1,5 +1,62 @@
-<div id="wrapper" ng-controller='IndexController' ng-init='init()'>
-	<h1>Index</h1>
-	<p>Bienvenido a nuestro administrador xD.</p>
-	<a href="#/login">Ir al formulario de Iniciar Sesión (el que Andrés tiene listo)</a>
-</div>
+<!DOCTYPE html>
+<html lang="es">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Formulario Login</title>
+
+    <Link rel="stylesheet" href="css/bootstrap.min.css">    
+    <Link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"> 
+    <Link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500" rel="stylesheet">
+    <Link rel="stylesheet" href="css/custom.css">
+  </head>
+	    
+  <body>
+    <div class="my-content" >
+        <div class="container" > 
+
+            <div class="row">
+              <div class="col-sm-12" >
+                  <h1>CatChai</h1>
+                  <div class="mydescription">
+                    <p><i>Un gif dice mas que mil palabras...</i> </p>
+                  </div>
+              </div>
+            </div>
+
+            <div class="row">
+                  <div class="col-sm-6 col-sm-offset-3 myform-cont" >
+                      <div class="myform-top">
+                          <div class="myform-top-left">
+                            <h3>Ingresa a nuestro sitio.</h3>
+                              <p>Digita tu usuario y contraseña:</p>
+                          </div>
+                          <div class="myform-top-right">
+                          <i class="fa fa-key" aria-hidden="true"></i>
+                          </div>
+                      </div>
+                      <div class="myform-bottom">
+                        <form role="form" action="Eventos.html" method="post" class="">
+                          <div class="form-group">
+                              <input type="text" name="form-username" placeholder="Usuario..." class="form-control" id="form-username">
+                          </div>
+                         <div class="form-group">
+                           <input type="password" name="form-password" placeholder="Contraseña..." class="form-control" id="form-password">
+                         </div>
+
+                          <div class="form-group">
+                              
+                          </div>
+                          <button type="submit" class="mybtn">Entrar</button>
+                        </form>
+                      </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+
+</html>
